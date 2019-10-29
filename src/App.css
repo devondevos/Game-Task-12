@@ -1,0 +1,51 @@
+body{
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+button {
+  width: 150px;
+  height: 25px;
+  padding: 5px;
+  background-color: #0070b5;
+  border-width: 0px;
+  transition: 1s;
+}
+
+button:hover {
+  opacity: 0.5;
+  width: 200px;
+  height: 35px;
+}
+
+button:active {
+  cursor: progress;
+}
+
+input {
+  width: 150px;
+  padding: 5px;
+  height: auto;
+  margin: 5px;
+  transition: 1s;
+  background-color: #f0f0f0;
+}
+
+input:focus {
+  width: 200px;
+  height: auto;
+}
+
+.task12 {
+  background-color: #9c9c9c;
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+/*customise your page*/
